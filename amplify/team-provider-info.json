@@ -1,0 +1,40 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stscontrol-dev-110343-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339195545179:role/amplify-stscontrol-dev-110343-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339195545179:role/amplify-stscontrol-dev-110343-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-stscontrol-dev-110343-deployment",
+      "UnauthRoleName": "amplify-stscontrol-dev-110343-unauthRole",
+      "StackName": "amplify-stscontrol-dev-110343",
+      "StackId": "arn:aws:cloudformation:us-east-1:339195545179:stack/amplify-stscontrol-dev-110343/b48a8530-8950-11ee-926e-0e5432b5d559",
+      "AmplifyAppId": "d1ekjsgizy7nif",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-stscontrol-dev-110343-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "stscontrol761ae53b": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1ekjsgizy7nif",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "stscontrol": {},
+        "stsApi": {}
+      },
+      "storage": {
+        "s3cf5d94f2": {}
+      },
+      "function": {
+        "calcTicket": {
+          "deploymentBucketName": "amplify-stscontrol-dev-110343-deployment",
+          "s3Key": "amplify-builds/calcTicket-31583266546d6f5a437a-build.zip"
+        }
+      }
+    }
+  }
+}

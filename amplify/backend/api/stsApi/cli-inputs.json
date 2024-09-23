@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "paths": {
+    "/calcTicket": {
+      "name": "/calcTicket",
+      "lambdaFunction": "calcTicket",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
